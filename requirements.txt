@@ -12,3 +12,4 @@ scipy
 opencv-python
 ninja
 tensorboard
+tyro
