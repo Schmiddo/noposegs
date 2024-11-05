@@ -1,0 +1,14 @@
+torch==2.2
+torchvision
+numpy<2
+tqdm
+plyfile
+setuptools
+imageio
+imutils
+timm
+einops
+scipy
+opencv-python
+ninja
+tensorboard

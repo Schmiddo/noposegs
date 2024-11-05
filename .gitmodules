@@ -1,0 +1,15 @@
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
+[submodule "submodules/cudaops"]
+	path = submodules/cudaops
+	url = git@git.rwth-aachen.de:christian.schmidt4/cudaops.git
+[submodule "submodules/dpt"]
+	path = submodules/dpt
+	url = https://github.com/isl-org/MiDaS
+[submodule "submodules/lietorch"]
+	path = submodules/lietorch
+	url = https://github.com/Schmiddo/lietorch.git
+[submodule "submodules/diff-gaussian-rasterization/third_party/glm"]
+	path = submodules/diff-gaussian-rasterization/third_party/glm
+	url = https://github.com/g-truc/glm
