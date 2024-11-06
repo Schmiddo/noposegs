@@ -1,6 +1,6 @@
 # Look Gauss, No Pose! - Gaussian Splatting without accurate pose information
 
-This repository contains code for the IROS24 paper "Look Gauss, No Pose: Novel View Synthesis using Gaussian Splatting without Accurate Pose Initialization" by Christian Schmidt, Jens Piekenbrinck, and Bastian Leibe.
+This repository contains code for the IROS24 paper "Look Gauss, No Pose: Novel View Synthesis using Gaussian Splatting without Accurate Pose Initialization" by Christian Schmidt, Jens Piekenbrinck, and Bastian Leibe. [Arxiv](https://arxiv.org/abs/2410.08743v1)
 
 ## Installation
 
@@ -39,6 +39,18 @@ This script creates models for all scenes of the llff dataset and then runs the 
 To run the second set of experiments, run `./run/noposegs.sh`.
 This script runs joint reconstruction and camera pose refinement on llff, replica, and tanks & temples.
 We also provide run scripts for the baseline, vanilla 3DGS from COLMAP poses (optionally with noise), using `./run/3dgs.sh`.
+
+## 🎓 Citation
+
+If you find our work useful, please cite our paper:
+```
+@inproceedings{schmidt2024noposegs,
+author     = {Schmidt, Christian and Piekenbrinck, Jens and Leibe, Bastian},
+title      = {Look Gauss, No Pose: Novel View Synthesis using Gaussian Splatting without Accurate Pose Initialization},
+booktitle  = {IROS},
+year       = {2024},
+}
+```
 
 ## References
 

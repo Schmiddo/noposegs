@@ -3,7 +3,7 @@
 	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
 [submodule "submodules/cudaops"]
 	path = submodules/cudaops
-	url = git@git.rwth-aachen.de:christian.schmidt4/cudaops.git
+	url = https://git.rwth-aachen.de/christian.schmidt4/cudaops.git
 [submodule "submodules/dpt"]
 	path = submodules/dpt
 	url = https://github.com/isl-org/MiDaS
